@@ -1,0 +1,37 @@
+# Gradle and Kotlin
+.gradle/
+.kotlin/
+**/build/
+
+# Android SDK and IDE state
+local.properties
+.idea/
+*.iml
+captures/
+.externalNativeBuild/
+.cxx/
+
+# Build and release artifacts
+*.apk
+*.aab
+*.ap_
+*.dex
+mapping.txt
+
+# Signing and secrets
+*.jks
+*.keystore
+*.pem
+*.p12
+*.pfx
+*.key
+.env
+.env.*
+secrets.properties
+
+# OS, logs, and temporary files
+.DS_Store
+Thumbs.db
+*.log
+*.tmp
+*.swp
